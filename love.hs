@@ -1,7 +1,9 @@
+#!/user/bin/env runhaskell
+{-# LANGUAGE RecordWildCards #-}
 -- Love.hs ~ lunar muffins
--- A terminal startup application that encourages you 
+-- A terminal startup application that encourages you, the user, 
 -- with supportive messages and warm rays of sunshine!
-#!/usr/bin/env runhaskell
+
 import System.IO                          -- Helps us do wizardy!!!
 import Net.Weather                        -- Pretty weather forecast lady.
 import System.Environment                 -- Big brother knows all.
@@ -9,7 +11,6 @@ import System.IO.Unsafe                   -- Be careful...
 import Data.Random                        -- Randomness!
 import Data.Random.Source.DevRandom       -- Randomness!!
 import Data.Random.Extras                 -- Randomness!!!
-import System.Exit                        -- Exit program in case of crash oh no!!
 
 -- API Key to weather information.
 -- You can literally get this for free though.
