@@ -14,6 +14,7 @@ Todo:
 
 * ☼ Add colors to terminal.
 * ☼ Implement logic structures to make user aware of what they need to wear outside due to weather conditions.
+* ☼ "Make a set up file fam." - Suggested by @Shou
 * ☼ I don't know what else.
 * ☼ Kill myself.
 
