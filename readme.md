@@ -3,11 +3,11 @@ A terminal startup application that encourages you, the user, with supportive po
 
 You can add your own messages in the following .txt files:
 * lovegreet.txt -> Messages used to greet the user.
-* lovemsg.txt   -> Messages used to lovingly support the user. 
+* lovemsg.txt    -> Messages used to lovingly support the user. 
 
 Todo:
 
 * ☼ Add colors to terminal.
-* ☼ Add logic to make user aware of what they need to wear out due to weather conditions.
-* ☼ Shit man I don't know what else. 
+* ☼ Implement logic structures to make user aware of what they need to wear outside due to weather conditions.
+* ☼ I don't know what else.
 * ☼ Kill myself.
