@@ -6,5 +6,6 @@ lovegreet.txt -> Messages used to greet the user.
 lovemsg.txt   -> Messages used to support the user. 
 
 Todo:
+
 ☼ Add colors to terminal
 ☼ Kill myself. 
