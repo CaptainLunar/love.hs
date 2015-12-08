@@ -7,7 +7,8 @@ You can add your own messages in the following .txt files:
 
 ## What you need to get it running:
 * Every single module in the import header.
-* Edit whatever startup file you use, .bashrc, /etc/profile, and set it to run thisfunctional program.
+* Edit whatever startup file you use, .bashrc, /etc/profile, and set it to run this functional program. For less clutter, just hide the program in some hidden folder and just add it to your profile! 
+* Ex) ~/love/love or ~/.love/love
 
 Todo:
 
