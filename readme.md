@@ -6,7 +6,7 @@ You can add your own messages in the following .txt files:
 * lovemsg.txt    -> Messages used to lovingly support the user. 
 
 ## What you need to get it running:
-* Every single module in the import header.
+* Literally just `cabal install` every single module in the import header.
 * Edit whatever startup file you use, .bashrc, /etc/profile, and set it to run this functional program. For less clutter, hide the program in some hidden folder and add it to your profile file! 
 * Ex) ~/love/love or ~/.love/love
 
