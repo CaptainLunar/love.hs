@@ -9,5 +9,5 @@ Todo:
 
 * ☼ Add colors to terminal.
 * ☼ Add logic to make user aware of what they need to wear out due to weather conditions.
-* ☼ Shit man I don't know. 
+* ☼ Shit man I don't know what else. 
 * ☼ Kill myself.
