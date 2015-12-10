@@ -10,6 +10,10 @@
 --          isn't it a nice day to ride a bike or go for a walk?
 --        * Bible phrases during start up
 
+-- Instructions:
+--      Make a directory called .lovel in home directory
+--      Put love files there.
+
 import System.IO                         
 import Net.Weather                        
 import System.Environment                
@@ -23,7 +27,7 @@ import System.Exit (exitFailure)
 -- API Key to weather information.
 -- You need to set this in the "myAPIkey file!
 mykey :: APIKey
-mykey = (head . lines) $ unsafePerformIO $ readFile $ "/home/" ++ userName ++ "/love/myAPIkey.txt"
+mykey = (head . lines) $ unsafePerformIO $ readFile $ "/home/" ++ userName ++ "/.lovel/myAPIkey.txt"
 
 -- Define variables for state and city.
 -- You can set the city and state here before building in cabal.
@@ -42,9 +46,9 @@ userName = let str = unsafePerformIO $ lookupEnv "USER"
 main :: IO ()
 main = do
     if userName == "Nothing" then exitFailure else do
-        greet <- readFile $ "/home/" ++ userName ++ "/love/lovegreet.txt"
+        greet <- readFile $ "/home/" ++ userName ++ "/.lovel/lovegreet.txt"
         resp <- getConditions mykey mycity mystate
-        msg <- readFile $ "/home/" ++ userName ++ "/love/lovemsg.txt"
+        msg <- readFile $ "/home/" ++ userName ++ "/.lovel/lovemsg.txt"
         let g = lines greet
             m = lines msg
         putStrLn $ "Hey "++ userName ++ "! " ++ randomGreeting g
