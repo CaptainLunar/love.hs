@@ -11,8 +11,10 @@ You can add your own messages in the following .txt files:
 * Ex) ~/love/love or ~/.love/love
 
 ## You need the following programs installed:
-* Fortune
-* Todo
+* Fortune -> Can be installed with `sudo apt-get install fortune` 
+* Todo -> Can be install with `sudo apt-get install todo`
+
+All rights reserved to the mentioned programs.
 
 Todo:
 
