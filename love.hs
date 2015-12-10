@@ -57,6 +57,7 @@ main = do
         putStrLn $ "\nYour love says: " ++ randomGreeting m
         putStrLn $ "You have the following items on the agenda"
         callCommand "todo"
+
 -- Helper function that will help us greet this person nicely.
 -- Picks a random string from a given list. 
 randomGreeting :: [String] -> String
