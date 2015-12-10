@@ -18,4 +18,5 @@ cabal-version:       >=1.8
 executable love
   main-is:          love.hs           
   -- other-modules:       
-  build-depends:    base ==4.6.*, random-extras, random-source ==0.3.0.6, random-fu ==0.2.6.2, Weather ==0.1.0.3
+  build-depends:    base ==4.6.*, random-extras, random-source ==0.3.0.6, 
+                    random-fu ==0.2.6.2, Weather ==0.1.0.3, process==1.2.3.0

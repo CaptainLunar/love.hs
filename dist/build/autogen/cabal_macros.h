@@ -14,6 +14,13 @@
   (major1) == 4 && (major2) <  6 || \
   (major1) == 4 && (major2) == 6 && (minor) <= 0)
 
+/* package process-1.2.3.0 */
+#define VERSION_process "1.2.3.0"
+#define MIN_VERSION_process(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 3)
+
 /* package random-extras-0.19 */
 #define VERSION_random_extras "0.19"
 #define MIN_VERSION_random_extras(major1,major2,minor) (\
