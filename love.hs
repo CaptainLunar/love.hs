@@ -2,14 +2,14 @@
 {-# LANGUAGE RecordWildCards #-}
 
 -- Love.hs ~ lunar muffins
--- A terminal startup application that encourages you, the user, 
--- with supportive messages and warm rays of sunshine!
+-- A terminal startup application that greets you during login, gives you
+-- a fortune, and gives you the current temperature.
+--
 -- To-do: * Based on the weather, output a message that warns the user as
 --          to what they need to wear for the day.
---        * More messages that suggests the user messages like. "It's 70F,
---          isn't it a nice day to ride a bike or go for a walk?
---        * Bible phrases during start up
-
+--        * More messages that suggests the user activities for the day based on the weather. 
+--          Ex) "It's 70F, isn't it a nice day to ride a bike or go for a walk?"
+--
 -- Instructions:
 --      Make a directory called .lovel in home directory
 --      Put love files there.
